@@ -65,9 +65,9 @@ module.exports = {
         
 ** Help related to ${client.user.username} commands**
 
-**💸 \`:\` ECONOMY**
-**📌 \`:\` INFORMATION**
-**👑 \`:\` OWNERS**
+**<a:loading_:906786750494564353> \`:\` ECONOMY**
+**<a:uptimer:906786775589077034> \`:\` INFORMATION**
+**<:owner:906791067981066300> \`:\` OWNERS**
 
 [Invite](${client.config.invitelink}) ● [Support Server](${client.config.server}) 
  `)
@@ -79,25 +79,25 @@ module.exports = {
         .addComponents(
             new MessageSelectMenu()
                 .setCustomId('help')
-                .setPlaceholder('❯ Economy Bot Help Menu!')
+                .setPlaceholder('DISCORTICS Help Menu!')
                 .addOptions([
                 {
                     label: 'Economy',
                     description: 'Economy Commands',
                     value: 'first',
-                    emoji: "💸"
+                    emoji: "906786750494564353"
                 },
                 {
                     label: 'Information',
                     description: 'Information Commands',
                     value: 'second',
-                    emoji: "📌"
+                    emoji: "906786775589077034"
                 },
                 {
                     label: 'Owner',
                     description: 'Owner Commands',
                     value: 'third',
-                    emoji: "👑"
+                    emoji: "906791067981066300"
                 }
             ])
         )

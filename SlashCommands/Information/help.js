@@ -93,9 +93,10 @@ module.exports = {
         
 ** Help related to ${client.user.username} commands**
 
-**💸 \`:\` ECONOMY**
-**<a:hyperpin:879379722193219634> \`:\` INFORMATION**
-**👑 \`:\` OWNERS**
+**<a:loading_:906786750494564353> \`:\` ECONOMY**
+**<a:uptimer:906786775589077034> \`:\` INFORMATION**
+**<:owner:906791067981066300> \`:\` OWNERS**
+
 
 [Invite](${client.config.invitelink}) ● [Support Server](${
 					client.config.server
@@ -112,28 +113,28 @@ module.exports = {
 		const row = new MessageActionRow().addComponents(
 			new MessageSelectMenu()
 				.setCustomId('help')
-				.setPlaceholder('❯ Economy Bot Help Menu!')
+				.setPlaceholder('DISCORTICS Help Menu!')
 				.addOptions([
-					{
-						label: 'Economy',
-						description: 'Economy Commands',
-						value: 'first',
-						emoji: '💸'
-					},
-					{
-						label: 'Information',
-						description: 'Information Commands',
-						value: 'second',
-						emoji: '<:information:915960408974688297>'
-					},
-					{
-						label: 'Owners',
-						description: 'Owners Only Commands',
-						value: 'third',
-						emoji: '👑'
-					}
-				])
-		);
+                {
+                    label: 'Economy',
+                    description: 'Economy Commands',
+                    value: 'first',
+                    emoji: "906786750494564353"
+                },
+                {
+                    label: 'Information',
+                    description: 'Information Commands',
+                    value: 'second',
+                    emoji: "906786775589077034"
+                },
+                {
+                    label: 'Owner',
+                    description: 'Owner Commands',
+                    value: 'third',
+                    emoji: "906791067981066300"
+                }
+            ])
+        );
 		interaction.followUp({ embeds: [helpmenu], components: [row] });
 	}
 };

@@ -11,9 +11,9 @@ module.exports = {
         .setDescription(
 `
 \u200b
-<a:developer_badge:879386609143914546>  [\`RLX\`](https://discord.com/users/753168925167976479) - [\`Server\`](https://discord.gg/S8fC3MFMy3)
+<a:developer_badge:906786359925170176>  [\`RLX\`](https://discord.com/users/753168925167976479) - [\`Server\`](https://discord.gg/zp8nTQqD9h)
 \u200b
-<a:developer_badge:879386609143914546> [\`MathisCool\`](https://discord.com/users/820142398935793685) - [\`Server\`](https://discord.gg/eTD6B2Mxsf)
+<a:developer_badge:906786359925170176> [\`MathisCool\`](https://discord.com/users/820142398935793685) - [\`Server\`](https://discord.gg/zp8nTQqD9h)
 \u200b
 `
 )

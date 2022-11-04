@@ -17,15 +17,15 @@ client.commands = new Collection();
 client.slashcommands = new Collection();
 client.aliases = new Collection();
 client.shop = {
-	Laptop: {
+	laptop: {
 		cost: 2000
 	},
-	Mobile: {
+	mobile: {
 		cost: 1000
 	},
-	Computer: {
+	computer: {
 		cost: 3000
-	}
+	} 
 };
 
 ['commands', 'events', 'slashcommands'].forEach(handler => {

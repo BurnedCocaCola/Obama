@@ -29,7 +29,7 @@ module.exports = {
                 { name: `📒 • **Discord.js**`, value: `\`\`\`${Discord.version}\`\`\``, inline: true },
                 { name: `💹 • **Uptime**`, value: `\`\`\`${uptime}\`\`\``, inline: true },
                 { name: `📌 • **Ping**`, value: `\`\`\`${client.ws.ping}ms\`\`\``, inline: true },
-                { name: `❤️ • **Developers**`, value: `\`\`\`\nRLX, MathIsCool\n\`\`\``, inline: true }
+                { name: `❤️ • **Developers**`, value: `\`\`\`\nRLX, MathIsCool, Discortics\n\`\`\``, inline: true }
             )
             interaction.followUp({ embeds: [statsEmbed] });
         } catch (e) {

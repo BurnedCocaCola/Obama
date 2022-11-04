@@ -1,10 +1,10 @@
 {
 	"prefix": "?",
-	"owner": ["753168925167976479", "820142398935793685"],
-	"channel": "",
-	"invitelink": "https://discord.com/api/oauth2/authorize?client_id=904584670686105681&permissions=8&scope=bot%20applications.commands",
-	"server": "https://discord.gg/S8fC3MFMy3",
-	"economyemoji": "💸",
-	"infoemoji": "📌", 
-	"owneremoji": "👑"
+	"owner": ["897301257037959219"],
+	"channel": "https://www.youtube.com/channel/UCi71wtGsx2RZR3EqMjgNtDA",
+	"invitelink": "https://discord.com/api/oauth2/authorize?client_id=1038221448579387435&permissions=517544073280&scope=bot%20applications.commands",
+	"server": "https://www.youtube.com/channel/UCi71wtGsx2RZR3EqMjgNtDA",
+	"economyemoji": "<a:loading_:906786750494564353>",
+	"infoemoji": "<a:uptimer:906786775589077034>", 
+	"owneremoji": "<:owner:906791067981066300>"
 }
